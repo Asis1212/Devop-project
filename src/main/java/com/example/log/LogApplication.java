@@ -1,13 +1,11 @@
-package com.example.library;
+package com.example.log;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LibraryApplication {
-
+public class LogApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(LibraryApplication.class, args);
+		SpringApplication.run(LogApplication.class, args);
 	}
-
 }
